@@ -1,0 +1,21 @@
+{
+  "name": "kfc_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tar": "^7.5.13"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.2.4",
+    "vite": "^8.0.10"
+  }
+}
